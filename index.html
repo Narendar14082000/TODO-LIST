@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>TODO LIST</h1>
+        <div class="input-container">
+            <input type="text" id="todoInput" placeholder="Enter your task..." class="form-control">
+            <button id="addBtn" class="btn btn-success">+</button>
+        </div>
+        <div class="filter-container">
+            <button id="allBtn" class="btn btn-secondary">All</button>
+            <button id="completedBtn" class="btn btn-secondary">Completed</button>
+            <button id="uncompletedBtn" class="btn btn-secondary">Uncompleted</button>
+        </div>
+        <ul id="todoList" class="list-group">
+            <!-- Todo items will be added dynamically here -->
+        </ul>
+        <div class="total-tasks" id="totalTasks">Total Tasks: 0</div>
+        <div class="total-tasks" id="completedTasks">Completed: 0</div>
+        <div class="total-tasks" id="uncompletedTasks">Uncompleted: 0</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
