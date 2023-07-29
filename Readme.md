@@ -18,10 +18,6 @@ Try out the [Todo List](https://narendar14082000.github.io/TODO-LIST/) applicati
 - Completed tasks are differentiated from uncompleted tasks.
 - The application displays the total number of tasks, completed tasks, and uncompleted tasks.
 
-## Getting Started
-
-To run the Todo List application, simply open the `index.html` file in your web browser.
-
 ## Usage
 
 1. Enter a task in the text box at the top.
