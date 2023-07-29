@@ -6,7 +6,7 @@ A simple Todo list application built with vanilla JavaScript, HTML, and CSS. Thi
 
 ## Demo
 
-Try out the [Todo List](https://your-hosted-website-url.com) application!
+Try out the [Todo List]([https://your-hosted-website-url.com](https://narendar14082000.github.io/TODO-LIST/) application!
 
 ## Features
 
